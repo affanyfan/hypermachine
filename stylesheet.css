@@ -1,3 +1,6 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 
 #sidebar {
 	position: fixed;
@@ -7,4 +10,61 @@
 	height: 100%;
 	background-image: linear-gradient(-180deg, #364656 14%, #346DA7 100%);
 	overflow-y: auto;
+}
+
+#menu {
+	position: relative;
+	padding: 0px;
+	top: 37px;
+	margin:0px;
+	width: 100px;
+	height: 300px;
+	display: block;
+}
+
+#stars {
+	position: absolute;
+	padding-left: 2px;
+	padding-bottom: 3px;
+	bottom: 0;
+}
+
+#selectedspan{
+	font-size: 16px;
+	color: #B3E527;
+	font-weight: 700;
+}
+
+#menuiconselected {
+	width: 17px;
+	height: 17px;
+	fill: #B3E527;
+}
+
+#unselectedspan{
+font-size: 16px;
+color: #F4FFFD;
+font-weight: 3001;
+}
+
+#menublockL:before {
+
+	position: absolute;
+	top: 37px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+}
+
+#menublockL:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	background-color: #B3E527;
+	top: 50%;
+	margin-top: -22px;
+	height: 100px;
+	width: 3px;
 }
