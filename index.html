@@ -6,22 +6,82 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div id="sidebar">
-	<ul id="menu">
-		<li>
-			<img id="menuiconselected" src="assets/icons/musical-note.svg" />
-			<span id="selectedspan">music</span>
-		</li>
+	<div class="sidebar">
+		<ul class="menu">
+			<li class="menu-item selected">
+				<img class="icon" src="assets/icons/music-selected.svg" />
+				<img class="icon hide" src="assets/icons/music-unselected.svg" />
+				<div class="menu-text">music</span>
+			</li>
+			<li class="menu-item">
+				<img class="icon" src="assets/icons/me-unselected.svg" />
+				<img class="icon hide" src="assets/icons/me-selected.svg" />
+				<span class="menu-text">me</span>
+			</li>
+			<li class="menu-item">
+				<img class="icon" src="assets/icons/settings-unselected.svg" />
+				<span class="menu-text">settings</span>
+			</li>
+		</ul>
+		<ul class='other-menu'>
+			<li>
+				<img class='icon' src="assets/icons/popular.svg" />
+				<p class='other-text'>popular</p>
+				<ul class='inner-menu'>
+					<li>
+						<span class='bold'>now</span>
+					</li>
+					<li>
+						last week
+					</li>
+					<li>
+						no remixes
+					</li>
+					<li>
+					remixes only
+					</li>
+				</ul>
+			</li>
+			<li>
+				<img class="icon" src="assets/icons/feed.svg" />
+				feed
+				<ul class='inner-menu'>
+					<li>
+					all
+					</li>
+					<li>
+					friends
+					</li>
+					<li>
+					artists
+					</li>
+					<li>
+					blogs
+					</li>
+				</ul>
+			</li>
+			<li>
+				<img class="icon" src="assets/icons/latest.svg" />
+				latest
+			</li>
+		</ul>
+		<img id="stars" src="assets/stars.svg">
+	</div>
+	<div class="content">
+		<h1> popular now </h1>
+		<ul>
+			<li>
+				<h2> Let it happen</h2>
+			</li>
 
-		<li>
-			<span id="unselectedspan">me</span>
-		</li>
-		
-		<li>
-			<span id="unselectedspan">shows</span>
-		</li>
-	</ul>
-	<img id="stars" src="assets/stars.svg">
-</div>
+			<li>
+				<h2> I can't feel my face </h2>
+			</li>
+
+			<li>
+				<h2> No No No </h2>
+			</li>
+		</ul>
+	</div>
 </body>
 </html>
