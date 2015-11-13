@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.1 (15681) - http://www.bohemiancoding.com/sketch -->
+    <title>music-selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="music-selected" sketch:type="MSArtboardGroup" fill="#B3E527">
+            <path d="M17,0 C6.375,0 4.25,2.125 4.25,2.125 L4.25,10.81625 C3.93125,10.71 3.54875,10.625 3.1875,10.625 C1.42375,10.625 0,12.04875 0,13.8125 C0,15.57625 1.42375,17 3.1875,17 C4.95125,17 6.375,15.57625 6.375,13.8125 L6.375,5.37625 C7.92625,4.8875 10.60375,4.44125 14.875,4.31375 L14.875,8.69125 C14.55625,8.585 14.17375,8.5 13.8125,8.5 C12.04875,8.5 10.625,9.92375 10.625,11.6875 C10.625,13.45125 12.04875,14.875 13.8125,14.875 C15.57625,14.875 17,13.45125 17,11.6875 L17,0 L17,0 Z" id="Shape-Copy" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
